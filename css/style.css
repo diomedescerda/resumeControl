@@ -1,0 +1,180 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Lato, Lucida Sans Unicode, Lucida Grande,sans-serif;
+    background-color: #f9f9f9
+}
+
+/* navigation */
+nav {
+    padding: 1rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav img {
+    width: 160px;
+    margin-right: 0.5rem;
+}
+
+nav i {
+    font-size: 1.8rem;
+}
+
+nav p {
+    text-transform: uppercase;
+    margin: 0.2rem;
+    text-align: center;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+}
+
+#nameCourse {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#userImage {
+    border-radius: 100%;
+    width: 60px;
+}
+
+#navTop {
+    background-color: #ffffff;
+}
+
+#navTop a {
+    color: black;
+    text-decoration: none;
+}
+
+#navBottom {
+    background-color: #024b86;
+    font-weight: bold;
+}
+
+#navBottom a {
+    color: white;
+    text-decoration: none;
+}
+
+/* body */
+section h1 {
+    text-align: center;
+    font-size: 3rem;
+} 
+
+.search {
+    margin: 1rem 7rem;
+}
+
+.search i, .search p {
+    cursor: pointer;
+}
+
+.search input {
+    margin: 0rem 1rem;
+    padding: 0.7rem 1rem;
+    border: 2px solid gray;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.search p {
+    display: inline;
+    color: #1b5e92;
+    font-size: 1.2rem;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 1rem 7rem;
+}
+
+section article {
+    background-color: #ffffff;
+    margin: 1rem;
+    border-radius: 1%;
+    text-align: center;
+    padding-top: 2rem;
+    box-shadow: 0 0 6px gray;
+}
+
+section img{
+    border-radius: 100%;
+    width: 100px;
+}
+
+article i {
+    font-size: 2.5rem;
+    margin: 0.5rem;
+}
+
+article a {
+    color: #0672be;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #54aeef;
+}
+.button {
+    background-color: #0672be;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: white;
+    background-color: #54aeef;
+}
+
+/* footer */
+footer {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 3rem;
+}
+
+footer a {
+    color: #0672be;
+}
+
+footer a:hover {
+    color: #54aeef;
+}
